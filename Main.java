@@ -13,6 +13,9 @@ public class Main{
 
         //TODO#3: 0부터 100까지 숫자를 저장하는 배열 선언
         int[] numbers = new int[101];
+        for(int i = 0; i < 101; i++){
+           numbers[i] = i;
+        }
         //TODO#4: 사용자로부터 입력을 받아 해당 숫자가 소수인지 판별
         System.out.println("0부터 100까지의 숫자를 입력하세요: ");
         int input = scanner.nextInt();
